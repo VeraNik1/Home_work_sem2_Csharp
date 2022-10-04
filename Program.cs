@@ -56,6 +56,3 @@ if((day == 6) || (day == 7)){
 else{
     Console.WriteLine("Это не выходной("); 
 }  
-
-
-
