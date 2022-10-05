@@ -45,7 +45,7 @@ else{
 
 Console.WriteLine("Введите номер дня недели от 1 до 7");
 int day = int.Parse(Console.ReadLine()!);
-while((day < 0) || (day > 7)){
+while((day <= 0) || (day > 7)){
     Console.WriteLine("Введено некорректное число");
     Console.WriteLine("Введите номер дня недели от 1 до 7");
     day = int.Parse(Console.ReadLine()!);
